@@ -22,12 +22,6 @@ class _ChatScreenState extends State<ChatScreen>
     super.initState();
     chatbotService = widget.chatbotService;
     _initializeChat();
-    ChatbotService.loadIntents().then((data) {
-      setState(() {
-        intentsData = {"intents": data};
-      });
-    });
-    ChatbotService.loadDataset();
   }
 
   Future<void> _initializeChat() async {
