@@ -1,0 +1,34 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Need any assistance?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Bye! Let me know if you need help next time!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks a lot", "Much appreciated"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "order_status",
+        "patterns": ["Where is my order?", "Order status", "Track my order", "Order update"],
+        "responses": ["Please provide your order ID to track your order.", "You can track your order in the 'My Orders' section."]
+      },
+      {
+        "tag": "payment",
+        "patterns": ["Payment options", "How can I pay?", "Do you accept credit cards?", "Payment methods"],
+        "responses": ["We accept credit/debit cards, PayPal, and net banking.", "You can pay using multiple options like cards, UPI, and wallets."]
+      },
+      {
+        "tag": "returns",
+        "patterns": ["How to return a product?", "Return policy", "Can I return an item?"],
+        "responses": ["You can return items within 30 days of delivery. Visit the 'Returns' section for more details."]
+      }
+    ]
+  }
